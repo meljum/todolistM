@@ -1,9 +1,9 @@
 import "./Header.css"
 
-const Header = () => {
+const Header = (props) => {
     return (
         <header className="header">
-            Todo List ( 5 / 10 )
+            Todo List ( {props.result} / {props.length} )
         </header>
     )
 }
