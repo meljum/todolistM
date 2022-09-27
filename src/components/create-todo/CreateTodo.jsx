@@ -27,6 +27,7 @@ const CreateTodo = (props) => {
         onChange={handleChange}
         type="text"
         placeholder="Enter todo"
+        autoFocus
       />
       <button>+Create</button>
     </form>
